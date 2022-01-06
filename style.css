@@ -1,0 +1,90 @@
+body{
+    font-family: 'Andada Pro', serif;
+}
+h1{
+    font-size: 50px;
+}
+.orange-color{
+    color: rgba(194, 179, 12, 0.87);
+}
+section{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+    
+}
+.half-width img{
+    width: 60%;
+}
+
+img{
+    border-radius: 30%;
+}
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(orange, red) ;
+    color: rgb(240, 230, 230);
+    padding: 8px 30px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.link-button:hover {
+    background-color: rgb(73, 5, 51);
+    color: rgb(67, 230, 18);
+    cursor: pointer;
+}
+.span-class{
+    color: tomato;
+}
+.second-section{
+    text-align: center;
+    margin-top: 100px;
+}
+.mission{
+    width: 250px;
+    border: 1px solid rgb(211, 46, 46);
+    box-shadow: 4px 4px 12px rgb(74, 63, 83);
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.div-image img{
+    width: 100%;
+}
+.all-division{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+.bottom-class{
+    padding: 15px;
+}
+.extra-project{
+    text-align: center;
+    padding-left: 300px;
+}
+h3{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    border: dotted olive;
+    background-color: palegoldenrod;
+    border-radius: 10px;
+}
+ul{
+    color: rgb(46, 21, 158);
+    font-weight: 700;
+    background-color: cyan;
+}
+.footer-span{
+    color: red;
+}
+
+footer{
+    background-color: rgb(6, 6, 27);
+    color: white;
+    text-align: center;
+}
